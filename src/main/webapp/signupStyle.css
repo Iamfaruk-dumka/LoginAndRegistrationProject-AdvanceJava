@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:rgb(168, 160, 160);
+}
+.conatiner{
+    width: 660px;
+    height: 500px;
+    margin:  5% auto;
+    background: #6c6cfbc4;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+
+}
+h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(23, 246, 135);
+
+}
+.conatiner form{
+    width: 500px;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    transition: 0.5s;
+}
+form input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border:1px solid green;
+    outline: none;
+    background: transparent;
+}
+::placeholder{
+    color: #f5f1f1;
+}
+.btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+form button{
+    width: 220px;
+    height: 35px;
+    margin: 0 10px;
+    background: linear-gradient(to right , red,orange);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
